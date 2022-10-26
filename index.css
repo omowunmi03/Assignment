@@ -1,0 +1,89 @@
+.flexcontainer1 {
+  background-color: #0e0e0e;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: -10px;
+}
+/* Desktops: flexbox child columns */
+@media (min-width: 1440px) {
+  .item-col-3 {
+    width: 29%;
+  }
+}
+.flexcontainer {
+  display: flex;
+  background-color: hsl(0, 0%, 95%);
+  width: 900px;
+  height: 500px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.div1 {
+  background-color: hsl(31, 77%, 52%);
+  height: 65%;
+  width: 22%;
+  border: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.div2 {
+  background-color: hsl(184, 100%, 22%);
+  height: 65%;
+  width: 22%;
+}
+.div3 {
+  background-color: hsl(179, 100%, 13%);
+  height: 65%;
+  width: 22%;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.img {
+  margin: 30px;
+}
+.h2 {
+  font-family: "Big Shoulders Display";
+  font-weight: 600;
+  margin-left: 30px;
+  margin-top: -5px;
+  color: hsl(0, 0%, 95%);
+  letter-spacing: 2px;
+  font-size: 25px;
+}
+p {
+  font-size: 10px;
+  font-family: "Lexend Deca";
+
+  margin: 30px;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+button {
+  border-radius: 30px;
+  border: 0;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-left: 30px;
+  margin-top: 25px;
+  background-color: hsl(0, 0%, 95%);
+}
+.sedan {
+  text-decoration: none;
+  color: red;
+  font-size: x-small;
+}
+.suv {
+  text-decoration: none;
+  color: hsl(184, 100%, 22%);
+  font-size: x-small;
+}
+.luxury {
+  text-decoration: none;
+  color: hsl(179, 100%, 13%);
+  font-size: x-small;
+}
